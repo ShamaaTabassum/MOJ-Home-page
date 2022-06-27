@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOJ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- header starts here -->
+    <header>
+        <div class="menu">
+            <img src="images/MOJ -Logo.png" alt="MOJ" class="logo">
+            <div class="menu-toggle-btn">
+                <ion-icon name="menu" class=' open-menu menu-btn'></ion-icon>
+                <ion-icon name="close" class="close-menu menu-btn"></ion-icon>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li class="nav-items"><a href="#" class="nav-text">Home</a></li>
+                    <li class="nav-items"><a href="#" class="nav-text">About Us</a></li>
+                    <li class="nav-items"><a href="#" class="nav-text">Used Cars</a></li>
+                    <li class="nav-items"><a href="#" class="nav-text">Find Vehicle</a></li>
+                    <li class="nav-items"><a href="#" class="nav-text">Contact Us</a></li>
+                </ul>
+                <a href="#" class="nav-btn">Send Inquiry</a>
+            </nav>
+        </div>
+    </header>
+    <!--Section1 starts here -->
+    <section>
+        <div class="sec-1">
+            <h1>WIDE <br>RANGE OF <br>VEHICLES.</h1>
+        </div>
+    </section>
+    <!-- section2 starts here -->
+    <section>
+        <div class="sec2">
+            <h2>Find By Search</h2>
+            <div class="sec2-content">
+                <div class="sec-input-content">
+                    <div class="input-content">
+                        <label for="make" class="label1">Make:</label>
+                        <input type="text" id="make" class="input" placeholder="Select Make">
+                    </div>
+                    <div class="input-content">
+                        <label for="year" class="label1 label2">Year:</label>
+                    </div>
+                    <div class="range-slider">
+                        <div class="selector1">
+                            <div id="min-range1" class="selector"></div>
+                            <div id="max-range1" class="selector"></div>
+                        </div>
+                        <div class="range1">
+                            <input type="range" class="range-min" min="1980" max="2022" value="1980" id="slider-a"
+                                oninput="slider1()">
+                            <input type="range" class="range-max" min="1980" max="2022" value="2022" id="slider-b"
+                                oninput="slider2()">
+                        </div>
+                    </div>
+                </div>
+                <div class="sec-input-content">
+
+                    <div class="input-content">
+                        <label for="model" class="label1">Model:</label>
+                        <input type="text" id="model" class="input" placeholder="Select Model">
+                    </div>
+                    <div class="input-content">
+                        <label for="mileage" class="label1 label2">Mileage:</label>
+                    </div>
+                    <div class="range-slider">
+                        <div class="selector1">
+                            <div id="min-range2" class="selector"></div>
+                            <div id="max-range2" class="selector"></div>
+                        </div>
+                        <div class="range1">
+                            <input type="range" class="range-min" min="1" max="200000" value="1" id="slider-c"
+                                oninput="slider3()">
+                            <input type="range" class="range-max" min="1" max="200000" value="200000" id="slider-d"
+                                oninput="slider4()">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <a href="#" class="sec2-btn">Send Inquiry</a>
+        </div>
+    </section>
+    <!-- section3 starts here -->
+
+    <section>
+        <div class="sec3">
+            <h2>Stock</h2>
+            <div class="sec3-bar">
+                <p class="stock">In-Stock</p>
+                <p class="sold" onclick="black">Sold</p>
+            </div>
+            <div class="sec3-content">
+                <div class="sec3-car">
+                    <div class="box">
+                        <img src="images/MOJ - car.png" alt="">
+                        <div class="overlay">
+                            <div class="image-text">
+                                Quick View
+                            </div>
+                        </div>
+                    </div>
+                    <p>Diahatsu</p>
+                    <h2>Move Custom RS</h2>
+                </div>
+                <div class="sec3-car">
+                    <div class="box">
+                        <img src="images/MOJ - car.png" alt="">
+                        <div class="overlay">
+                            <div class="image-text">
+                                Quick View
+                            </div>
+                        </div>
+                    </div>
+                    <p>Diahatsu</p>
+                    <h2>Move Custom RS</h2>
+                </div>
+                <div class="sec3-car">
+                    <div class="box">
+                        <img src="images/MOJ - car.png" alt="">
+                        <div class="overlay">
+                            <div class="image-text">
+                                Quick View
+                            </div>
+                        </div>
+                    </div>
+                    <p>Diahatsu</p>
+                    <h2>Move Custom RS</h2>
+                </div>
+                <div class="sec3-car">
+                    <div class="box">
+                        <img src="images/MOJ - car.png" alt="">
+                        <div class="overlay">
+                            <div class="image-text">
+                                Quick View
+                            </div>
+                        </div>
+                    </div>
+                    <p>Diahatsu</p>
+                    <h2>Move Custom RS</h2>
+                </div>
+                <div class="sec3-car">
+                    <div class="box">
+                        <img src="images/MOJ - car.png" alt="">
+                        <div class="overlay">
+                            <div class="image-text">
+                                Quick View
+                            </div>
+                        </div>
+                    </div>
+                    <p>Diahatsu</p>
+                    <h2>Move Custom RS</h2>
+                </div>
+                <div class="sec3-car">
+                    <div class="box">
+                        <img src="images/MOJ - car.png" alt="">
+                        <div class="overlay">
+                            <div class="image-text">
+                                Quick View
+                            </div>
+                        </div>
+                    </div>
+                    <p>Diahatsu</p>
+                    <h2>Move Custom RS</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section4 -->
+    <section>
+        <div class="sec4">
+            <p>中古車、自動車部品、機械を各国に輸出しています。<br>
+                例:パキスタン、アメリカ、カナダ、 アラブ首長国連邦、アフリカ、イギリス、ヨーロッパなど</p>
+            <p>WE EXPORT USED AUTOMOBILES, AUTOMOBILES PARTS <br>
+                AND MACHINERY TO DIFFERENT COUNTRIES.</p>
+            <p>SUCH AS: PAKISTAN, USA, CANADA, UAE, AFRICA, UK, EUROPE ETC</p>
+        </div>
+    </section>
+    <!-- section5 -->
+    <section>
+        <div class="sec5">
+            <div class="sec5-1">
+                <img src="images/logo.png" alt="MOJ">
+                <ul class="sec5-list1">
+                    <li class="sec5-list-items">
+                        <img src="images/icon1.png" alt="">
+                        <a href="#">本社:491-0821 愛知県一宮市<br>
+                            丹陽町重吉字城戸159-1</a>
+                    </li>
+                    <li class="sec5-list-items"><img src="images/icon2.png" alt=""><a href="#">+81-90-2267-7752</a></li>
+                    <li class="sec5-list-items"><img src="images/icon3.png" alt=""><a href="#">+81-568-68-7908</a></li>
+                    <li class="sec5-list-items"><img src="images/icon4.png" alt=""><a
+                            href="#">info@mughalsofjapan.com</a></li>
+                    <li class="sec5-list-items"><img src="images/icon5.png" alt=""><a
+                            href="#">www.mughalsofjapan.com</a></li>
+                </ul>
+            </div>
+            <div class="sec5-2">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Used Cars</a></li>
+                    <li><a href="#">Pre Booking</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+            </div>
+            <div class="sec5-3">
+                <p>Subscribe for newsletter:</p>
+                <div class="input1">
+                    <input type="text" placeholder="Email:">
+                </div>
+                <div class="flags">
+                    <img src="images/pakistan.jpg" alt="">
+                    <img src="images/uk.png" alt="">
+                    <img src="images/canada.jpg" alt="">
+                    <img src="images/ireland.png" alt="">
+                    <img src="images/south africa.png" alt="">
+                    <img src="images/dubai.png" alt="">
+                </div>
+                <div class="social-icons">
+                    <img src="images/whatsapp (1).png" alt="">
+                    <img src="images/instagram.png" alt="">
+                    <img src="images/facebook.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <p>Copyright&copy 2022-2023, MUGHALS OF JAPAN, All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <!-- script starts here -->
+    <script src="index.js"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</body>
+
+</html>
