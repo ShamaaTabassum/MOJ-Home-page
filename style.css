@@ -200,6 +200,7 @@ header {
     padding: 1rem;
     font-size: 2rem;
     border: 0.2rem solid var(--secondary-color);
+    color: var(--secondary-color);
 }
 
 .range-slider {
